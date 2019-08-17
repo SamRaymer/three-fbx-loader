@@ -23,7 +23,7 @@ var pako = require("pako");
 var THREE = require("three");
 var windowThree = window.THREE;
 var stubThree = {};
-window.THREE = stubThree;
+window.THREE = THREE;
 
 require("three/examples/js/loaders/FBXLoader");
 
